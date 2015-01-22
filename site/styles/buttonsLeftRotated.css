@@ -1,0 +1,37 @@
+*{
+	box-sizing:border-box;
+}
+form, fieldset, input{
+	margin:0;
+	border:0;
+	padding:0;
+}
+.sprite .btn{
+	background-image:url(../images/buttonBottomSprite.png);
+	background-position:0px -2px;
+}
+.sprite .btn:hover{
+	color:#FFFFFF;
+	background-position:0px 35px;
+}
+.navControls{
+	background-color:#428907;
+	padding:27px 0 0 0;
+	width:400px;
+	height:400px;
+}
+.navControls .btn{
+	color:#CCCCCC;
+	display:block;
+	margin:0 0 0 -8px;
+	padding:0 0 0 240px;
+	width:102%;
+	height:35px;
+	cursor:pointer;
+}
+.textAlignLeft .btn{
+	text-align:left;
+}
+.rotate{
+	transform:rotate(270deg);
+}
