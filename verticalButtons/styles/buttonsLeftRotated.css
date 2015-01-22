@@ -1,3 +1,4 @@
+
 *{
 	box-sizing:border-box;
 }
@@ -5,6 +6,9 @@ form, fieldset, input{
 	margin:0;
 	border:0;
 	padding:0;
+}
+.shadowBottom{
+	  box-shadow:-13px 1px 20px #CAD8BE;
 }
 .sprite .btn{
 	background-image:url(../images/buttonBottomSprite.png);
@@ -23,7 +27,11 @@ form, fieldset, input{
 .navControls .btn{
 	color:#CCCCCC;
 	display:block;
-	margin:0 0 0 -8px;
+	margin:0 0 0 -5px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;	
+	border-width:0 0 10px 0;
+	border-color:red;
 	padding:0 0 0 240px;
 	width:102%;
 	height:35px;
