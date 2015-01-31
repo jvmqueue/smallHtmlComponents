@@ -11,12 +11,15 @@ form, fieldset, input{
 	  box-shadow:-13px 1px 20px #CAD8BE;
 }
 .sprite .btn{
+	font:bold small arial,sans-serif;
+	font-size:1.0em;
+	letter-spacing:2px;
 	background-image:url(../images/buttonBottomSprite.png);
 	background-position:0px -2px;
 }
 .sprite .btn:hover{
-	color:#FFFFFF;
-	background-position:0px 35px;
+	color:#CCCCCC;
+	background-position:0px 79px;
 }
 .navControls{
 	background-color:#428907;
@@ -25,7 +28,7 @@ form, fieldset, input{
 	height:400px;
 }
 .navControls .btn{
-	color:#CCCCCC;
+	color:#FFFFFF;
 	display:block;
 	margin:0 0 0 -5px;
 	border-top-left-radius:4px;
@@ -34,7 +37,7 @@ form, fieldset, input{
 	border-color:red;
 	padding:0 0 0 240px;
 	width:102%;
-	height:35px;
+	height:47px;
 	cursor:pointer;
 }
 .textAlignLeft .btn{
