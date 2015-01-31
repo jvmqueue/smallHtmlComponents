@@ -2,18 +2,20 @@
   "name": "jvmqueue.com",
   "matchdep": "~0.1.2",
   "version": "1.0.0",
+  "private": "true",
   "description": "JvmQueue small Html Comonents",
   "repository": {
     "type": "git",
-	"url":"https://github.com/jvmqueue/smallHtmlComponents.git"
+    "url": "https://github.com/jvmqueue/smallHtmlComponents.git"
   },
   "keywords": [
     "portfolio",
-	"small components"
+    "small components"
   ],
   "author": "glenn",
   "devDependencies": {
     "grunt": "~0.4.1",
+    "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-compass": "~0.6.0",
     "grunt-contrib-csslint": "^0.3.1",
     "grunt-contrib-cssmin": "^0.11.0",
