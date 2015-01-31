@@ -1,7 +1,8 @@
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 *{
 	box-sizing:border-box;
 }
+
 form, fieldset, input{
 	margin:0;
 	border:0;
@@ -11,7 +12,7 @@ form, fieldset, input{
 	  box-shadow:-13px 1px 20px #CAD8BE;
 }
 .sprite .btn{
-	font:bold small arial,sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:1.0em;
 	letter-spacing:2px;
 	background-image:url(../images/buttonBottomSprite.png);
