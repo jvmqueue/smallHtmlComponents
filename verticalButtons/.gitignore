@@ -1,0 +1,9 @@
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+fonts/**
+minified/
+npm-debug.log
+../../mocks/
